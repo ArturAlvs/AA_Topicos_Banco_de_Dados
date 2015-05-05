@@ -57,7 +57,7 @@ app.use(function(err, req, res, next) {
 });
 
 
-var Mongoose = require('Mongoose');
+var Mongoose = require('mongoose');
 
 var db = Mongoose.connection;
 
